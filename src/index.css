@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a{
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration:wavy;
+}
+
+.homeImg{
+  
+    
+}

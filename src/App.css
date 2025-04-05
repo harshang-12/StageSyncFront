@@ -1,0 +1,273 @@
+
+@font-face {
+    font-family: popinsMed ;
+    src: url(../Fonts/Poppins/Poppins-Medium.ttf);
+    /* font-family: ; */
+}
+
+@font-face {
+    font-family: Main;
+    src: url(../Fonts/);
+}
+
+body{
+    font-family: popinsMed ; 
+    /* background-color: rgb(242, 242, 242); */
+    background-color: #e7f3f3 ;
+
+}
+
+
+.logo{
+    border-radius: 50%;
+    /* cursor: pointer; */
+    width: 50px;
+    
+}
+
+.sideBarFont{
+    font-size: large;
+    font-weight: 500;
+
+
+}
+
+.Navbar{
+    position: fixed;
+
+    top: 0;
+    height: 60px;
+    width: 100%;
+    backdrop-filter: blur(30px);
+
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    font-size: 18px;
+    /* font-weight: bold; */
+    
+    
+}
+
+.NavRight{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blueColor{
+    background-color: #1b6aa2;
+}
+
+.blueTextColor{
+    color: #17517b ;
+}
+
+.bluebtn{
+    background-color: #13518e;
+    color: white;
+    padding: 10px;
+    padding-inline: 15px;
+    border-radius: 40px;
+}
+
+.bluebtn:hover{
+    background-color: #1760aa;
+}
+
+
+.homepagefirstscreen{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+}
+
+
+@media screen and (max-width : 640px ) {
+    .model{
+        display: none !important;
+    }
+}
+
+.homePicModel{
+        width: 450px;
+        height: 450px;
+}
+
+
+.inputFields{ 
+    border: 1px black ;
+    border-style: solid ;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%;
+    padding: 8px;
+    /* margin-bottom: 10px; */
+}
+
+.formBtn{
+    background-color: #0f4283 !important ;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-inline: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+}
+.formBtn:hover{
+
+    box-shadow: 0px 0px 2px gray;
+}
+
+
+
+/* src/components/Login.css */
+
+
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.053);
+  }
+  
+  .form {
+    width: 500px;
+    padding: 20px;
+    /* border: 1px solid #bdbdbd; */
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  
+
+/*  for making card ..  */
+
+.card{
+        width: 100%; 
+        background-color: white;  
+        border: 0.5px solid #ededed;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+       
+}
+
+
+.authBG{
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sideNav{
+    background-color: white;
+    
+}
+
+.sideNav li {
+    background-color:rgba(0, 0, 0, 0); ;
+    padding: 10px;
+
+    transition: transform 0.3s ease-in-out ,background-color 0.3s ease-in-out; 
+
+}
+
+.sideNav div{
+
+    cursor: pointer ;
+}
+.sideNav li:hover  {
+
+    background-color:rgba(0, 0, 0, 0.095);
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transform: scale(1.051); /* Zoom effect on hover */
+
+}
+
+.sideNav li:hover span {
+    transform: scale(1.051); /* Zoom effect for the inner span */
+  }
+
+
+.layout{
+   
+    padding: 40px;
+
+}
+
+
+.profileHease{
+    height: 200px;
+ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.whitesmoke{
+    background-color: whitesmoke;
+}
+.w-40 {
+    width: 10rem; /* You can adjust the size of the circle by changing this value */
+  }
+  
+  .h-40 {
+    height: 10rem; /* You can adjust the size of the circle by changing this value */
+  }
+  
+  /* Styling for the circle itself */
+  .rounded-full {
+    border-radius: 50%;
+  }
+  
+  /* Styling for the border */
+  .border-gray-300 {
+    border-width: 2px;
+  }
+
+  .align-center{
+    align-items: center;
+  }
+
+  /* 0000FF */
+
+  .textColor{
+    color:#0066CC !important ;
+  }
+
+  .iconColor{
+    color: #003366 !important;
+  }
+
+
+  .borderbottum{ 
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.279);
+  }

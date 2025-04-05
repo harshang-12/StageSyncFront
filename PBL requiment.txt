@@ -1,0 +1,32 @@
+				    {Visiting Page}
+
+(1)
+Signup page - side valu image goto 
+img -   
+re. - https://studio.uxpincdn.com/studio/wp-content/uploads/2022/02/best-signup-page-examples-getresponse.jpeg.webp
+
+fields - (1) username {6-30 character with num, }
+         (2) mail 
+	 (3) radio button {organizer, Performer}
+         (3) password 
+	 (3) password
+	 (4) Signup button
+	 {verification message}
+(2)
+Signin page - side valu image goto   
+img - 
+re. - https://dribbble.com/shots/7041357-Sign-In-Form/attachments/41678?mode=media
+
+fields - (1) username  or mail 
+         (2) password 
+	 (3) forgot password
+	 (4) Signin button
+(3)
+main application page
+ -both have different view
+			(1)profile page 
+			{ 
+			  1- performer profile page
+			  2- organization profile page 
+			}
+			

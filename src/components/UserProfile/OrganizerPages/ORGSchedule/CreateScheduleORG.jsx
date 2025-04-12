@@ -18,26 +18,6 @@ function CreateScheduleORG() {
   const userId = id;
 
 
-  //     userId
-
-
-  // eventName
-
-  //     eventStartDate
-
-  //     eventEndDate
-
-  //     days
-
-  //     startTimePerDay
-
-  //     endTimePerDay
-
-  //     location
-
-  //     description
-
-
   const [eventName, setEventName] = useState()
   const [eventStartDate, setEventStartDate] = useState()
   const [eventEndDate, setEventEndDate] = useState()
